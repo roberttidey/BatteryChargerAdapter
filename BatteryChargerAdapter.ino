@@ -24,8 +24,8 @@
 //voltage - 10k/470R divider
 #define CONV_VOLTS  21963ul
 #define CONV_AMPS   20168ul
-#define CONV_CHARGE 333ul
-//Should be CONV_AMPS * interval(secs) / 3600
+#define CONV_CHARGE 266ul
+//Should be CONV_AMPS * 8 * interval(secs) / 3600
 #define AMPS_THRESHOLD 25
 #define VOLTS_THRESHOLD 625
 
