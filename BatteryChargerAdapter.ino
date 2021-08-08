@@ -58,7 +58,7 @@ void processValues() {
 	}
 }
 
-void makeValString(unsigned long val, unsigned int conv) {
+void makeValString(unsigned long val, unsigned long conv) {
 	uint8_t i=0, j=0;
 	unsigned long valc = val * conv;
 	char temp[10];
